@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: darkcyan;
+    padding: 50px;
+    font-size: 30px;
+}
+
+
+.Body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: coral;
+    padding: 50px;
+    font-size: 30px;
+    width: 20%;
+}
+
+/* .Menu-list-item {
+} */
+
+.Menu-list-item-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 50%;  
+}
+.Menu-list-item-button:hover {
+    background-color: wheat;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: coral;
+    padding: 50px;
+    font-size: 30px;
+    width: 50%;
+}
+
+.Advertising {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: coral;
+    width: 30%;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: khaki;
+    padding: 40px;
+    font-size: 30px;
+}
